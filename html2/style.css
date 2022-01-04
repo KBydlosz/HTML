@@ -1,0 +1,51 @@
+.fit-picture {
+    width: 250px;
+    justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  li {
+    display: inline;
+  }
+
+  .centered {
+      padding: 10px;
+      margin: 10px;
+    text-align: center;
+  }
+
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.mybox {
+    position: relative;
+    padding: 10px 1px;
+
+  }
+  
+  .mybox:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 10%;
+    top: 0%;
+    border-left: 3px solid #3366FF;
+  }
+
+  h4{
+      padding: 0px;
+      margin: 0px;
+  }
+
+

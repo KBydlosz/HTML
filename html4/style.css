@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia;
+  }
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+
+.center {
+    padding: 10px;
+}
+
+h1{
+    font-weight: bold;
+    color: blue;
+    background: lightgray;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1.6rem;
+    word-spacing: 2em;
+}
+
+h2{
+    margin: 10px;
+    color: darkred;
+}
+
+.w600{
+    width: 600px;
+}
+
+.w290{
+    width: 290px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin10{
+    margin: 10px;
+}
